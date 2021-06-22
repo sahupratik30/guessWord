@@ -24,3 +24,5 @@ A word guessing game where one has to guess the scrambled words.
 ![Screenshot](https://user-images.githubusercontent.com/80754608/122958214-48878080-d3a0-11eb-88e5-b60dece03729.png)
 ![Screenshot](https://user-images.githubusercontent.com/80754608/122958419-72d93e00-d3a0-11eb-9ab8-d5a562ec01d6.png)
 
+## Video Reference
+[video](https://user-images.githubusercontent.com/80754608/122956854-014cc000-d39f-11eb-90e3-6c3543562a09.mp4)
