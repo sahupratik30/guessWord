@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rosybrown;
+}
+.heading {
+  font-weight: 500 !important;
+  color: #03db15;
+}
+.score,
+.heading,
+#scrambled_word,
+.timer {
+  font-family: "Acme", sans-serif;
+}
+.game_board {
+  width: 70%;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+}
+.btn {
+  background-color: #03db15 !important;
+  color: #fff !important;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.word,
+.score,
+.timer,
+.note h3 {
+  color: rgb(180, 0, 0);
+}
+.status {
+  margin-top: 30px;
+}
+.note {
+  width: 70%;
+}
+@media screen and (max-width: 500px) {
+  .heading {
+    font-size: 30px !important;
+  }
+  .score,
+  .timer {
+    font-size: 20px;
+  }
+  .word {
+    font-size: 30px !important;
+  }
+  button {
+    font-size: 10px !important;
+  }
+  .note h3 {
+    font-size: 10px;
+  }
+}
