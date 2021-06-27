@@ -14,7 +14,7 @@ A word guessing game where one has to guess the scrambled words.
 
 ```
 - Fork this Repository
-- Clone it to your PC (https://github.com/<your-username>/weatherApp.git)
+- Clone it to your PC (https://github.com/<your-username>/guessWord.git)
 - Make the changes
 - Generate a pull request
 ```
